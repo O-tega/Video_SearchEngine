@@ -21,9 +21,7 @@ class SearchBar extends React.Component {
 						onSubmit={this.handleSubmit}
 						className='flex items-center'
 					>
-						<label
-							className='sr-only'
-						>
+						<label className='sr-only'>
 							Search
 						</label>
 						<div className='relative w-full'>
