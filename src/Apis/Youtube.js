@@ -1,7 +1,8 @@
 // import React from 'react';
+
 import axios from 'axios';
 
-const KEY = 'AIzaSyAB3cld2RLB6MFHskM7WPBDbJZG3fZ0DU8';
+const KEY = process.env.REACT_APP_YOUTUBE_KEY;
 
 
 export default axios.create({
